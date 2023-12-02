@@ -1,14 +1,40 @@
 * {
     text-align: center;
     background-color: azure;
+    font-family: 'Times New Roman', Verdana, serif;
 }
 
-li,
+li, p{
+    font-size: 20px;
+}
+
+ul li,
 .subheader{
+    text-align: center;
+}
+
+ol li{
     text-align: left;
+}
+
+ul{
+    list-style-position: inline;
+    padding-left: 0px;
 }
 
 img{
     width: 300px;
     height: auto;
+}
+
+p{
+    text-align: left;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(184, 117, 29);
+}
+
+.description{
+    margin: 0% 35% 0% 35%;
+    border: 3px solid black;
 }
