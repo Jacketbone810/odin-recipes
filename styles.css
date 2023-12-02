@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+    background-color: azure;
+}
+
+li,
+.subheader{
+    text-align: left;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
